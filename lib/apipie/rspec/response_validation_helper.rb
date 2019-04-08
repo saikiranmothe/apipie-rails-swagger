@@ -108,7 +108,6 @@ class ActionController::Base
     end
   end
 
-  include Apipie::ControllerValidationHelpers
 end
 
 module Apipie
@@ -173,7 +172,6 @@ ActionController::TestCase::Behavior.instance_eval do
     end
   end
 
-  prepend Apipie::ResponseValidationHelpers
 end
 
 

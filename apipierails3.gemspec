@@ -5,9 +5,9 @@ require "apipie/version"
 Gem::Specification.new do |s|
   s.name        = "apipierails3"
   s.version     = Apipie::VERSION
-  s.authors     = ["Pavel Pokorny","Ivan Necas"]
-  s.email       = ["pajkycz@gmail.com", "inecas@redhat.com"]
-  s.homepage    = "http://github.com/Apipie/apipie-rails"
+  s.authors     = ["sai kiran mothe", "Pavel Pokorny","Ivan Necas"]
+  s.email       = ["saikiran.mothe@gmail.com","pajkycz@gmail.com", "inecas@redhat.com"]
+  s.homepage    = "https://github.com/saikiranmothe/apipierails3"
   s.summary     = %q{Rails REST API documentation tool}
   s.description = %q{Rails REST API documentation tool}
 

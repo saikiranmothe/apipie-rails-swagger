@@ -35,7 +35,7 @@ The easiest way to get Apipie up and running with your app is:
 
 .. code:: sh
 
-   echo "gem 'apipie-rails'" >> Gemfile
+   echo "gem 'apipierails3'" >> Gemfile
    bundle install
    rails g apipie:install
 

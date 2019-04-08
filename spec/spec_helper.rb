@@ -107,4 +107,3 @@ RSpec.configure do |config|
 end
 
 require 'action_controller/test_case.rb'
-ActionController::TestCase::Behavior.send(:prepend, Rails4Compatibility::Testing)

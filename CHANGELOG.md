@@ -1,6 +1,5 @@
  Changelog
 ===========
-
 [v0.5.15](https://github.com/Apipie/apipie-rails/tree/v0.5.15) (2019-01-03)
 --------
 [Full Changelog](https://github.com/Apipie/apipie-rails/compare/v0.5.14...v0.5.15)
