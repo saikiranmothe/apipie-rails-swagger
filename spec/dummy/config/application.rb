@@ -7,7 +7,7 @@ require "action_view/railtie"
 require "action_mailer/railtie"
 
 Bundler.require
-require "apipie-rails"
+require "apipierails3"
 
 module Dummy
   class Application < Rails::Application

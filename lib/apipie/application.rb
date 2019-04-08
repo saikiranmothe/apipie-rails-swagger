@@ -453,13 +453,10 @@ module Apipie
     # If cache_classes is set to false, it does nothing,
     # as this would break loading of the controllers.
     def rails_mark_classes_for_reload
-      unless Rails.application.config.cache_classes
-        Rails::VERSION::MAJOR == 4 ? ActionDispatch::Reloader.cleanup! : Rails.application.reloader.reload!
-        init_env
-        reload_examples
-        Rails::VERSION::MAJOR == 4 ? ActionDispatch::Reloader.prepare! : Rails.application.reloader.prepare!
-      end
+      init_env
+      reload_examples
     end
+    
 
   end
 end

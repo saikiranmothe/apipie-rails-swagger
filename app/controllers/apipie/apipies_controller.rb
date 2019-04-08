@@ -5,8 +5,8 @@ module Apipie
 
     layout Apipie.configuration.layout
 
-    around_action :set_script_name
-    before_action :authenticate
+    around_filter :set_script_name
+    before_filter :authenticate
 
     def authenticate
       if Apipie.configuration.authenticate
